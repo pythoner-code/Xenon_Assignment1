@@ -31,7 +31,7 @@
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/pythoner-code/internsctl.git
+    git clone https://github.com/pythoner-code/Xenon_Assignment1.git
     cd internsctl
     ```
 
