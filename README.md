@@ -70,3 +70,8 @@
     ```bash
     man internsctl
     ```
+**ScreenShots:**
+
+![image](https://github.com/pythoner-code/Xenon_Assignment1/assets/67531739/11471695-4fa7-419e-8867-80e4b1a89965)
+
+![image](https://github.com/pythoner-code/Xenon_Assignment1/assets/67531739/dcb6ff72-3a8f-4c72-8023-5720a7fa81c2)
