@@ -1,0 +1,73 @@
+.\" Manpage for internsctl
+.\" Contact your local UNIX guru if you do not understand this manpage.
+.TH internsctl 1 "January 2024" "v0.1.0" "internsctl manual"
+
+.SH NAME
+internsctl \- Custom Linux Command for Operations
+
+.SH SYNOPSIS
+.B internsctl
+[\fIOPTION\fR]...
+
+.SH DESCRIPTION
+This manual page documents the internsctl command, a custom Linux command for various operations.
+
+.SH OPTIONS
+.TP
+.B \-\-help
+Display help information.
+
+.TP
+.B \-\-version
+Display command version.
+
+.TP
+.B cpu getinfo
+Get CPU information.
+
+.TP
+.B memory getinfo
+Get memory information.
+
+.TP
+.B user create <username>
+Create a new user.
+
+.TP
+.B user list [\-\-sudo-only]
+List users.
+
+.TP
+.B file getinfo [OPTIONS] <file-name>
+Get file information.
+
+.SH EXAMPLES
+.B internsctl \-\-help
+Display help information.
+
+.B internsctl \-\-version
+Display command version.
+
+.B internsctl cpu getinfo
+Get CPU information.
+
+.B internsctl memory getinfo
+Get memory information.
+
+.B internsctl user create john
+Create a new user with the username 'john'.
+
+.B internsctl user list
+List all regular users.
+
+.B internsctl user list \-\-sudo-only
+List users with sudo permissions.
+
+.B internsctl file getinfo \-\-size hello.txt
+Get the size of the file 'hello.txt'.
+
+.SH AUTHOR
+Written by Himanshu.
+
+.SH SEE ALSO
+ls(1), top(1), adduser(8)
